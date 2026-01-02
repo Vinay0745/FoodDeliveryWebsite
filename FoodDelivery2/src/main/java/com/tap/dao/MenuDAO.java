@@ -2,7 +2,7 @@ package com.tap.dao;
 
 import java.util.List;
 
-import src.main.java.com.tap.model.Menu;
+import com.tap.model.Menu;
 
 public interface MenuDAO {
 	
