@@ -20,7 +20,7 @@ public class DBConnection {
             Class.forName("com.mysql.cj.jdbc.Driver");
             return DriverManager.getConnection(URL, USER, PASSWORD);
         } catch (Exception e) {
-            e.printStackTrace(); // This will show errors in Railway logs
+            e.printStackTrace();
             return null;
         }
     }
